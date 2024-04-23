@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "02410379-06c0-4ee5-834d-6e4c9e366323"
+      }
+    },
+    "owner": "abetancourt03"
   }
 }
