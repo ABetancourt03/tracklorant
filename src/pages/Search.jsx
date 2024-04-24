@@ -1,10 +1,8 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
-
 import Header from '../components/Header'
 import Navigation from '../components/Navigation'
-import { Link } from 'react-router-native'
 
-export default function Home () {
+export default function Search () {
   return (
     <View style={styles.container}>
       <Header>
@@ -18,10 +16,7 @@ export default function Home () {
       </Header>
 
       <View style={styles.content}>
-        <Text style={styles.title}>Patch Notes</Text>
-        <Link to='/signin'>
-          <Text>SignIn</Text>
-        </Link>
+        <Text style={styles.title}>Search</Text>
       </View>
 
       <Navigation />
