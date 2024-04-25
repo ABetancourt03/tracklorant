@@ -5,9 +5,9 @@ A Simple app where you can see your matches stats, the leaderboard and search ot
 
 ## Screenshots
 
-![Mobile (Auth)](https://github.com/ABetancourt03/tracklorant/assets/80859657/bfbf000d-1257-4ee0-ad89-d30487de767a)
-![Mobile (Patch Notes)](https://github.com/ABetancourt03/tracklorant/assets/80859657/ec2e0e5e-c04d-480a-b218-56b7425ee1ec)
-![Mobile (Ranking)](https://github.com/ABetancourt03/tracklorant/assets/80859657/cfbaaef7-086f-4542-a687-5ea7dda65381)
+![Mobile (Auth)](https://github.com/ABetancourt03/tracklorant/assets/80859657/4681357a-c225-4484-b916-83608d08adba)
+![Mobile (Patch Notes)](https://github.com/ABetancourt03/tracklorant/assets/80859657/a9fb0c78-afb3-4f11-864c-d306ea46d0d4)
+![Mobile (Ranking)](https://github.com/ABetancourt03/tracklorant/assets/80859657/467796d0-879e-4955-893b-af0df7237d3f)
 
 ## Run Locally
 
@@ -32,6 +32,6 @@ Install dependencies
 Start the server
 
 ```bash
-  pnpm start or android/ios
+  pnpm start or pnpm android/ios
 ```
 
