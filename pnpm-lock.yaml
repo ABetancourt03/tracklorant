@@ -20,6 +20,9 @@ importers:
       react-native:
         specifier: 0.73.6
         version: 0.73.6(@babel/core@7.24.4)(@babel/preset-env@7.24.4(@babel/core@7.24.4))(react@18.2.0)
+      react-native-dotenv:
+        specifier: ^3.4.11
+        version: 3.4.11(@babel/runtime@7.24.4)
       react-router-native:
         specifier: ^6.23.0
         version: 6.23.0(react-native@0.73.6(@babel/core@7.24.4)(@babel/preset-env@7.24.4(@babel/core@7.24.4))(react@18.2.0))(react@18.2.0)
@@ -3310,6 +3313,11 @@ packages:
 
   react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+
+  react-native-dotenv@3.4.11:
+    resolution: {integrity: sha512-6vnIE+WHABSeHCaYP6l3O1BOEhWxKH6nHAdV7n/wKn/sciZ64zPPp2NUdEUf1m7g4uuzlLbjgr+6uDt89q2DOg==}
+    peerDependencies:
+      '@babel/runtime': ^7.20.6
 
   react-native@0.73.6:
     resolution: {integrity: sha512-oqmZe8D2/VolIzSPZw+oUd6j/bEmeRHwsLn1xLA5wllEYsZ5zNuMsDus235ONOnCRwexqof/J3aztyQswSmiaA==}
@@ -8336,6 +8344,11 @@ snapshots:
   react-is@17.0.2: {}
 
   react-is@18.2.0: {}
+
+  react-native-dotenv@3.4.11(@babel/runtime@7.24.4):
+    dependencies:
+      '@babel/runtime': 7.24.4
+      dotenv: 16.4.5
 
   react-native@0.73.6(@babel/core@7.24.4)(@babel/preset-env@7.24.4(@babel/core@7.24.4))(react@18.2.0):
     dependencies:
