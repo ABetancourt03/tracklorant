@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
+import { View } from 'react-native'
 import { NativeRouter, Routes, Route } from 'react-router-native'
 
 import Home from './src/pages/Home'
@@ -11,6 +12,7 @@ import Store from './src/pages/Store'
 export default function App () {
   return (
     <NativeRouter>
+      <View style={{ backgroundColor: '#1B242E' }} />
       <Routes>
         <Route exact path='/' Component={Home} />
         <Route path='/signin' Component={SignIn} />
