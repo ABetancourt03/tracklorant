@@ -1,11 +1,11 @@
-import { View, Text, Image, StyleSheet } from 'react-native'
+import { View, Image, StyleSheet } from 'react-native'
 import Header from '../components/Header'
 import Navigation from '../components/Navigation'
 
 export default function Store () {
   return (
     <View style={styles.container}>
-      <Header>
+      <Header text='Store'>
         <Image
           style={{
             width: 48,
@@ -15,9 +15,7 @@ export default function Store () {
         />
       </Header>
 
-      <View style={styles.content}>
-        <Text style={styles.title}>Store</Text>
-      </View>
+      <View style={styles.content} />
 
       <Navigation />
     </View>

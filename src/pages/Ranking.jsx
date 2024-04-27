@@ -1,11 +1,19 @@
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, Image } from 'react-native'
 import Header from '../components/Header'
 import Navigation from '../components/Navigation'
 
 export default function Ranking () {
   return (
     <View style={styles.container}>
-      <Header text='Ranking' />
+      <Header text='Leaderboard'>
+        <Image
+          style={{
+            width: 48,
+            height: 48
+          }}
+          source={require('../icons/logo.png')}
+        />
+      </Header>
 
       <View style={styles.content} />
 

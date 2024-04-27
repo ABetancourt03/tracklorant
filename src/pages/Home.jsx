@@ -7,7 +7,7 @@ import { Link } from 'react-router-native'
 export default function Home () {
   return (
     <View style={styles.container}>
-      <Header>
+      <Header text='Patch Notes'>
         <Image
           style={{
             width: 48,
@@ -18,9 +18,8 @@ export default function Home () {
       </Header>
 
       <View style={styles.content}>
-        <Text style={styles.title}>Patch Notes</Text>
         <Link to='/signin'>
-          <Text>SignIn</Text>
+          <Text style={styles.title}>Sign in</Text>
         </Link>
       </View>
 
