@@ -1,25 +1,29 @@
 import { View, Text, StyleSheet } from 'react-native'
+import Menu from './Menu'
 
 export default function Header ({ children, text }) {
   return (
     <View style={styles.header}>
       {children}
       {text && <Text style={styles.title}>{text}</Text>}
+      <Menu />
     </View>
   )
 }
 
 const styles = StyleSheet.create({
   header: {
+    flexDirection: 'row',
     backgroundColor: '#18212A',
     height: 76,
     borderBottomColor: '#FFFDB950',
     borderBottomWidth: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 16
   },
   title: {
-    color: '#FEF7EE',
+    color: '#FFFDB9',
     fontFamily: 'Roboto',
     fontSize: 24,
     fontWeight: 'bold'
