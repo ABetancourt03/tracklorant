@@ -1,4 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native'
+import Constants from 'expo-constants'
+
 import Menu from './Menu'
 
 export default function Header ({ children, text }) {
@@ -15,12 +17,13 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     backgroundColor: '#18212A',
-    height: 76,
+    height: 76 + Constants.statusBarHeight,
     borderBottomColor: '#FFFDB950',
     borderBottomWidth: 1,
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 16
+    padding: 16,
+    paddingTop: Constants.statusBarHeight
   },
   title: {
     color: '#FFFDB9',

@@ -22,7 +22,7 @@ export default function App () {
         <Route path='/store' Component={Store} />
       </Routes>
 
-      <StatusBar hidden />
+      <StatusBar style='inverted' />
     </NativeRouter>
   )
 }
